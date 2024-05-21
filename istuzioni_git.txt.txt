@@ -1,0 +1,13 @@
+git init = crea un repository locale (che permette di tornare al punto di ripristino)
+
+git status = va fare una verifica su lo stato della repositori locale
+
+git add = va adv aggiungere alla repositori il file creato nel cartella del progeto 
+
+git add . = permettere di tracciare tutti  i file della  repositori
+
+git rm = toglie la traciatuta del life salvato
+
+git comint-m 'messaggio'(questo messaggio funzione come da ettichetta per andare a cercare il file in modo da tracciare tutti i progresi dei lavori, in genere si scrivono i progeresi fatti)
+
+
