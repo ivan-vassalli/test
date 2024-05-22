@@ -1,7 +1,9 @@
 [  git config --global user.email "ivanvassalli1@gmail.com
 git config --global user.name "ivan_V"  ] =comandi  per settare l email e il nome utente 
 
- git config --global --list = ceck statao referenze
+git config --global --list = ceck statao referenze
+
+git clone = per salvare una repositori da una dislocata a in una locale
 
 git init = crea un repository locale (che permette di tornare al punto di ripristino)
 
@@ -14,6 +16,36 @@ git add . = permettere di tracciare tutti  i file della  repositori locale
 git rm = toglie la traciatuta del life salvato
 
 git comint -m 'messaggio'(questo messaggio funzione come da ettichetta per andare a cercare il file in modo da tracciare tutti i progresi dei lavori, in genere si scrivono i progeresi fatti)
+
+git push = per caricare il progetto sulla repositori  
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   testo.vsdx
+
+
+infoitsagnesi.it@LAPTOP-UCPH9R7O MINGW64 /d/DV_1 (main)
+$ git commit -m 'testo'
+[main 67db79d] testo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testo.vsdx
+
+infoitsagnesi.it@LAPTOP-UCPH9R7O MINGW64 /d/DV_1 (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 232 bytes | 232.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ivan-vassalli/test.git
+   c87d2b8..67db79d  main -> main
+
 
 
 
